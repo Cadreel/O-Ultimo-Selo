@@ -1,0 +1,58 @@
+body { 
+
+	background-color: #070a0c !important;
+	font-family: 'Special Elite', cursive !important;
+	color: #6d6d6d !important;
+
+	
+}
+
+/* PENSAR DEPOIS
+.icones-sites li {
+	display: inline-block;
+}
+
+
+
+.icones-sites a {
+	padding: 15px;
+	margin-top: 20px;
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-repeat: no-repeat;
+    background-size: 20px 20px;
+   
+    
+}
+
+
+
+.PS  {
+	background-image: url(img/blueicon_playstation.png) !important; 
+}
+
+
+.Steam {
+	background-image: url(img/blueicon_steam.png) !important;
+}
+
+
+.XboX {
+	background-image: url(img/blueicon_xbox.png) !important;
+}
+
+
+.PC {
+	background-image: url(img/blueicon_pc.png) !important;
+}
+
+
+
+/*
+.rodape-pagina {
+	color: #b7b2b2;
+	font-size: 15px;
+}
+
+*/
