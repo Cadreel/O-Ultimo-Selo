@@ -47,12 +47,12 @@ body {
 	background-image: url(img/blueicon_pc.png) !important;
 }
 
+*/
 
 
-/*
-.rodape-pagina {
-	color: #b7b2b2;
-	font-size: 15px;
+.footer {
+	background-color: rgba(38, 47, 56, 0.3) !important;
+	color: #b7b2b2 !important;
+	font-size: 15px !important;
 }
 
-*/

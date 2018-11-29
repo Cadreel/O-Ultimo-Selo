@@ -68,10 +68,10 @@
         if(!empty($_POST)){
             try{
                 $nome = $_POST['nome'];
-				$email = $_POST['email'];
-				$plataforma = $_POST['plataforma'];
-				$mensagem = $_POST['mensagem'];
-				$data = date("Y-m-d");
+								$email = $_POST['email'];
+								$plataforma = $_POST['plataforma'];
+								$mensagem = $_POST['mensagem'];
+								$data = date("Y-m-d");
 
 				$sql_insert = "INSERT INTO dataform (nome, email, plataforma, mensagem, data) VALUES (:nome, :email, :plataforma, :mensagem, :data)";
 				$stmt = $conn->prepare($sql_insert);
@@ -79,32 +79,10 @@
 			}catch(Exception $e){
 				die(var_dump ($e));
 			}
-			echo "<h3> OBIRGADO! Você inseriu o contato</h3>";
+			echo "<br><h3> OBRIGADO! Você inseriu o contato</h3>";
 		}
 
-		/*$stmt = $conn->query('SELECT * FROM contatos');
-		$contatos = $stmt->fetchAll();
-
-		if(count($contatos)){
-			echo "<h2> Pessoas que colocaram o contato:</h2>";
-			echo "<table>";
-			echo "<tr><th>Nome</th>";
-			echo "<th>Email</th>";
-			echo "<th>Plataforma</th>";
-			echo "<th>Mensagem</th>";
-			echo "<th>Data</th></tr>";
-
-			foreach ($contatos as $contato) {
-				echo "<tr><td>".$contato['nome']."</td>";
-				echo "<td>".$contato['email']."</td>";
-				echo "<td>".$contato['plataforma']."</td>";
-				echo "<td>".$contato['mensagem']."</td>";
-				echo "<td>".$contato['data']."</td></tr>";
-			}
-			echo "</table>";
-		}else{
-			echo "<h3>Não tem nenhum contato</h3>";
-		}*/
+	
 		?>
 
 

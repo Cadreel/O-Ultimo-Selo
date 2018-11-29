@@ -11,6 +11,13 @@ body {
 
 }
 
+img {
+	width: 30% !important;
+	height: 90% !important;
+
+}
+
+
 
 img {
     opacity: 0.1 !important;
